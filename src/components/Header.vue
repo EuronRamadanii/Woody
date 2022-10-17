@@ -3,7 +3,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark stroke">
                 <h1>
-                    <router-link class="navbar-brand" to="/home"><span class="sub-log">Wo</span>ody</router-link>
+                    <router-link class="navbar-brand" to="/"><span class="sub-log">Wo</span>ody</router-link>
                 </h1>
                 <!-- if logo is image enable this   
       <a class="navbar-brand" href="#index.html">

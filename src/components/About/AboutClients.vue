@@ -24,10 +24,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="item">
+                <div class="item">
                     <div class="slider-info">
                         <div class="img-circle">
-                            <img src="../assets/images/c3.jpg" class="img-fluid rounded" alt="client image">
+                            <img src="../../assets/images/c3.jpg" class="img-fluid rounded" alt="client image">
                         </div>
                         <div class="message-info">
                             <span class="fa fa-quote-left mr-2"></span>
@@ -41,7 +41,7 @@
                             <div class="desp">Comapany ,City</div>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
         <!-- /main-slider -->
