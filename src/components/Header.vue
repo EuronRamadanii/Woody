@@ -3,7 +3,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark stroke">
                 <h1>
-                    <router-link class="navbar-brand" to="/"><span class="sub-log">Wo</span>ody</router-link>
+                    <router-link class="navbar-brand" to="/home"><span class="sub-log">Wo</span>ody</router-link>
                 </h1>
                 <!-- if logo is image enable this   
       <a class="navbar-brand" href="#index.html">
@@ -18,8 +18,8 @@
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mx-lg-auto">
-                        <li class="nav-item active">
-                            <router-link class="nav-link" to="/">
+                        <li class="nav-item">
+                            <router-link class="nav-link " to="/" exact>
                                 Home </router-link>
                         </li>
                         <li class="nav-item">
@@ -56,3 +56,9 @@
         </div>
     </header>
 </template>
+
+<style>
+.router-link-active {
+    color: #e44901 !important;
+}
+</style>

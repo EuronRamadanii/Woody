@@ -40,7 +40,7 @@
                         <ul>
                             <h6 class="footer-title-29">Useful Links</h6>
                             <li>
-                                <router-link class="nav-link" to="/">
+                                <router-link class="nav-link" to="/" exact>
                                     Home </router-link>
                             </li>
                             <li class="nav-item">
