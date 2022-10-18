@@ -3,7 +3,7 @@
         <!-- <AboutHeader /> -->
         <AboutBanner />
         <W31About />
-        <AboutFeatures />
+        <!-- <AboutFeatures /> -->
         <AboutTeam />
         <W31AboutFeatures />
         <AboutClients />

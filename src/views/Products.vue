@@ -1,8 +1,8 @@
 <template>
     <div>
-        <ServicesBannerServices />
-        <ServicesBanner />
         <ServicesFeatures />
+        <ServicesBanner />
+        <ServicesBannerServices />
        
     </div>
 </template>
