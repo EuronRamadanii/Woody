@@ -14949,7 +14949,7 @@ nav ul li a:hover {
 }
 
 .w3l-main-slider .banner-view {
-  background: url(../src//assets//images//banner1.jpg) no-repeat center;
+  /* background: url(../src//assets//images//banner1.jpg) no-repeat center; */
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -14960,17 +14960,17 @@ nav ul li a:hover {
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/banner2.jpg) no-repeat center;
+  /* background: url(../images/banner2.jpg) no-repeat center; */
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/banner3.jpg) no-repeat center;
+  /* background: url(../images/banner3.jpg) no-repeat center; */
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top3 {
-  background: url(../images/banner4.jpg) no-repeat center;
+  /* background: url(../images/banner4.jpg) no-repeat center; */
   background-size: cover;
 }
 
@@ -14978,11 +14978,11 @@ nav ul li a:hover {
   content: "";
   /* background: rgba(0, 0, 0, 0.51); */
   /* background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'); */
-  background-image: url('./banner1.jpg');
+  background-image: url('./images//7.jpg');
   /* background-image: url('../src/assets/images/banner1.jpg'); */
   position: absolute;
   top: 0;
-  min-height: 100vh;
+  min-height: 90vh;
   left: 0;
   right: 0;
   z-index: -1;
