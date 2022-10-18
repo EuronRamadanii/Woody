@@ -17,7 +17,7 @@
                             </div>
                         </div>
                         <div class="col-md-10 col-10 featured_grid_right_info">
-                            <h4><a class="link-hny" href="#url">Powerfull Product
+                            <h4 class=""><a class="link-hny tags" href="#url">Powerfull Product
                                     Strategy </a></h4>
                             <p>Lorem ipsum dolor sit amet elit consec tetur adipisi elit., rem!</p>
                         </div>
@@ -31,7 +31,8 @@
                             </div>
                         </div>
                         <div class="col-md-10 col-10 featured_grid_right_info">
-                            <h4><a class="link-hny" href="#url">Expertise, discipline & precision </a></h4>
+                            <h4 class=""><a class="link-hny tags" href="#url">Expertise, discipline & precision </a>
+                            </h4>
                             <p>Lorem ipsum dolor sit amet elit consec tetur adipisi elit., rem!</p>
                         </div>
                     </div>
@@ -44,7 +45,7 @@
                             </div>
                         </div>
                         <div class="col-md-10 col-10 featured_grid_right_info">
-                            <h4><a class="link-hny" href="#url">100% Satisfaction
+                            <h4 class=""><a class="link-hny tags" href="#url">100% Satisfaction
                                     Guarantee</a></h4>
                             <p>Lorem ipsum dolor sit amet elit consec tetur adipisi elit., rem!</p>
                         </div>

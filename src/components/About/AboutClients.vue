@@ -49,34 +49,54 @@
 </template>
 
 <script>
-window.onscroll = function () {
-    scrollFunction()
-};
+// window.onscroll = function () {
+//     scrollFunction()
+// };
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("movetop").style.display = "block";
-    } else {
-        document.getElementById("movetop").style.display = "none";
-    }
-}
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         document.getElementById("movetop").style.display = "block";
+//     } else {
+//         document.getElementById("movetop").style.display = "none";
+//     }
+// }
 
 // When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+// function topFunction() {
+//     document.body.scrollTop = 0;
+//     document.documentElement.scrollTop = 0;
+// }
 
 $(document).ready(function () {
-    $('.owl-testimonial').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: true,
-        responsiveClass: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
+    // loop: true,
+    //     margin: 0,
+    //     nav: true,
+    //     responsiveClass: true,
+    //     autoplay: true,
+    //     autoplayTimeout: 5000,
+    //     autoplaySpeed: 1000,
+    //     autoplayHoverPause: false,
+    //     responsive: {
+    //         0: {
+    //             items: 1,
+    //             nav: false
+    //         },
+    //         480: {
+    //             items: 1,
+    //             nav: false
+    //         },
+    //         667: {
+    //             items: 1,
+    //             nav: true
+    //         },
+    //         1000: {
+    //             items: 1,
+    //             nav: true
+    //         }
+    //     }
+    var $owl = $('.owl-testimonial').owlCarousel({
+        items: 5,
+        loop: false,
         responsive: {
             0: {
                 items: 1,
@@ -96,36 +116,38 @@ $(document).ready(function () {
             }
         }
     })
+
+    $owl.trigger('refresh.owl.testimonial');
 })
 
-$(function () {
-    $('.navbar-toggler').click(function () {
-        $('body').toggleClass('noscroll');
-    })
-});
+// $(function () {
+//     $('.navbar-toggler').click(function () {
+//         $('body').toggleClass('noscroll');
+//     })
+// });
 
-$(window).on("scroll", function () {
-    var scroll = $(window).scrollTop();
+// $(window).on("scroll", function () {
+//     var scroll = $(window).scrollTop();
 
-    if (scroll >= 80) {
-        $("#site-header").addClass("nav-fixed");
-    } else {
-        $("#site-header").removeClass("nav-fixed");
-    }
-});
+//     if (scroll >= 80) {
+//         $("#site-header").addClass("nav-fixed");
+//     } else {
+//         $("#site-header").removeClass("nav-fixed");
+//     }
+// });
 
 //Main navigation Active Class Add Remove
-$(".navbar-toggler").on("click", function () {
-    $("header").toggleClass("active");
-});
-$(document).on("ready", function () {
-    if ($(window).width() > 991) {
-        $("header").removeClass("active");
-    }
-    $(window).on("resize", function () {
-        if ($(window).width() > 991) {
-            $("header").removeClass("active");
-        }
-    });
-});
+// $(".navbar-toggler").on("click", function () {
+//     $("header").toggleClass("active");
+// });
+// $(document).on("ready", function () {
+//     if ($(window).width() > 991) {
+//         $("header").removeClass("active");
+//     }
+//     $(window).on("resize", function () {
+//         if ($(window).width() > 991) {
+//             $("header").removeClass("active");
+//         }
+//     });
+// });
 </script>

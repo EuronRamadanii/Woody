@@ -16150,8 +16150,20 @@ body:after {
   font-size: 2em;
   margin-top: 5px;
   color: var(--primary-color);
+  /* background-color: #e44901; */
 }
-
+.w3l-ab-features{
+  background-color: #e44901;
+}
+.w3l-ab-features p{
+  color: #ffffff;
+}
+.w3l-ab-features .container h3{
+  color: #ffffff;
+}
+.tags{
+  color: #ffffff !important;
+}
 .w3l-ab-features .features-w3pvt-main h4 a {
   font-size: 26px;
   line-height: 32px;
