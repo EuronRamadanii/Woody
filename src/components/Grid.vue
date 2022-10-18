@@ -46,10 +46,9 @@
                     <div class="grid-block">
                         <a href="#" class="d-block p-lg-4 p-3">
                             <span class="fa fa-podcast" aria-hidden="true"></span>
-                            <h4 class="my-3">Custom design, created with the present and future in mind</h4>
+                            <h4 class="my-3">Custom design, created with the present in mind</h4>
                             <p class="">Our commitment to exceptional design and service shows in the connection we make
-                                with our clients. We begin by listening, to understand what needs to grow out of our
-                                collaboration, and craft design solutions especially for you.</p>
+                                with our clients. We begin by listening.</p>
                         </a>
                     </div>
                 </div>

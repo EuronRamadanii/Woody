@@ -39,7 +39,7 @@
                             </form>
                         </div>
                         <div class="map">
-                            <iframe style="height: 450px; width: 600px"
+                            <iframe style="height: 450px; width: 350px"
                                 src="https://maps.google.com/maps?q=Kosovo,%20Prishtine&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                         </div>

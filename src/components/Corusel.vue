@@ -28,10 +28,10 @@
                             <div class="banner-info">
                                 <div class="container">
                                     <div class="banner-info-bg">
-                                        <h5>Provide Effective Building Solutions</h5>
-                                        <p class="mt-4 pr-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <h5>Provide Effective Wood Solutions</h5>
+                                        <!-- <p class="mt-4 pr-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                             Velit
-                                            quisquam, doloremque placeat aut numquam ipsam. </p>
+                                            quisquam, doloremque placeat aut numquam ipsam. </p> -->
                                         <router-link class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" to="/about">
                                             About
                                             Us</router-link>
@@ -62,8 +62,8 @@
                             </div>
                         </div>
                     </li>
-                </div> 
-                <div class="item">
+                </div> -->
+                <!-- <div class="item">
                     <li>
                         <div class="slider-info banner-view banner-top3 bg bg2">
                             <div class="banner-info">
@@ -94,3 +94,7 @@
         </div>
     </section>
 </template>
+
+<script>
+
+</script>

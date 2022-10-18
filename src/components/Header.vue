@@ -13,6 +13,7 @@
                     data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <!-- <i class="fa-bars"></i> -->
                     <span class="navbar-toggler-icon fa icon-close fa-times"></span>
                 </button>
 
@@ -20,7 +21,7 @@
                     <ul class="navbar-nav mx-lg-auto">
                         <li class="nav-item">
                             <router-link class="nav-link " to="/" exact>
-                                Home </router-link>
+                                Home <span class="sr-only">(current)</span> </router-link>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link" to="/about">
