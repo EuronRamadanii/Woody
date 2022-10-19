@@ -4,13 +4,11 @@
             <div class="container py-md-5 py-3">
                 <div class="row align-items-center test">
                     <div class="col-lg-6 title">
-                        <h3 class="hny-title">High Quality Construction Solutions
+                        <h3 class="hny-title">High Quality Solutions
                             For Residentials & Industries!</h3>
-                        <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, soluta impedit.
-                            Consequatur, quasi mollitia? Adipisci dolor set exercitationem amet dolore expedita
-                            repudiandae
-                            voluptatem impedit ipsa vero repellendus? Lorem ipsum dolor, sit amet consecteturs
-                            adipisicing elit. Odio ex aut.</p>
+                        <p class="mt-4">We use our extensive experience with custom casework, along with architectural
+                            woodwork and countertops, to assure our clients of the best possible solutions to their
+                            casework needs.</p>
                     </div>
                     <div class="col-lg-6 main-cont-wthree-fea text-lg-center mt-lg-0 mt-5">
                         <div class="row pl-lg-4">

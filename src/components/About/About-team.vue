@@ -5,10 +5,10 @@
                 <div class="header-section text-center mx-auto">
                     <h6 class="sub-titlehny">Leading Team</h6>
                     <h3 class="hny-title">Meet Our Team</h3>
-                    <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                    <!-- <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                         Curae;
                         Nulla mollis dapibus nunc, ut rhoncus
-                        turpis sodales quis. Integer sit amet mattis quam.</p>
+                        turpis sodales quis. Integer sit amet mattis quam.</p> -->
                 </div>
                 <div class="row team-row pt-3 mt-5">
                     <div class="col-lg-3 col-sm-6 team-wrap">

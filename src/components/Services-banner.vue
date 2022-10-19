@@ -6,13 +6,9 @@
                     <div class="section-width">
                         <h3 class="hny-title two">Do it once, do it right, make it last.</h3>
                     </div>
-                    <div class="link-list-menu">
-                        <p class="mb-sm-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non ipsum
-                            soluta perferendis
-                            veniam qui esse magnam commodi quisquam vitae labore nemo at voluptatem, totam, minima
-                            recusandae
-                            assumenda. Sequi molestiae ex nihil ducimus modi blanditiis iure explicabo quas veritatis
-                            quasi.</p>
+                    <div class="link-list-menu ">
+                        <p class="mb-sm-5 mb-4">Please call us today and let us know how
+                            we can help!</p>
                         <router-link class="btn btn-style btn-white" to="/contact">Contact</router-link>
                     </div>
                 </div>

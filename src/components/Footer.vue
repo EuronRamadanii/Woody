@@ -5,10 +5,8 @@
                 <div class="row footer-top-29">
                     <div class="footer-list-29 col-lg-4">
                         <h6 class="footer-title-29">About Company</h6>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, repellat. Accusantium quos
-                            ea
-                            doloribus?
-                            A sed beatae sapiente commodi nam ipsum dolor set. </p>
+                        <p>One vision, three characters, countless unique pieces. Each of our individual pieces tells a
+                            story that has its own effect. </p>
                         <div class="main-social-footer-29 mt-4">
                             <a href="#facebook" class="facebook">
                                 <!-- <span class="fa fa-facebook" aria-hidden="true"></span> -->

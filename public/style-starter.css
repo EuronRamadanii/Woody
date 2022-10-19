@@ -15532,7 +15532,8 @@ button.owl-next {
 /*--/w3l-cwp4-sec--*/
 .w3l-cwp4-sec {
   /* background: var(--bg-light); */
-  background-image: url(./images//7.jpg);
+  background-image: url(./images/Banner_background.jpg);
+  background-position: right;
 }
 
 .cwp4-text{

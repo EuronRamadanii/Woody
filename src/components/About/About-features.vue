@@ -4,9 +4,9 @@
             <div class="header-top ml-auto pr-lg-5">
                 <h6 class="sub-titlehny mb-2">Features</h6>
                 <h3 class="hny-title mb-4">An inspired approach to quality residential projects </h3>
-                <p class="pr-lg-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                <!-- <p class="pr-lg-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
                     ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Non quae, fugiat consequatur voluptatem nihil ad. Lorem ipsum dolor sit amet.</p>
+                    elit. Non quae, fugiat consequatur voluptatem nihil ad. Lorem ipsum dolor sit amet.</p> -->
             </div>
             <div class="row features-w3pvt-main mt-5 pt-md-3" id="features">
                 <div class="col-lg-4 col-md-6 feature-gird">
@@ -19,7 +19,7 @@
                         <div class="col-md-10 col-10 featured_grid_right_info">
                             <h4 class=""><a class="link-hny tags" href="#url">Powerfull Product
                                     Strategy </a></h4>
-                            <p>Lorem ipsum dolor sit amet elit consec tetur adipisi elit., rem!</p>
+                            <!-- <p>Lorem ipsum dolor sit amet elit consec tetur adipisi elit., rem!</p> -->
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                         <div class="col-md-10 col-10 featured_grid_right_info">
                             <h4 class=""><a class="link-hny tags" href="#url">Expertise, discipline & precision </a>
                             </h4>
-                            <p>Lorem ipsum dolor sit amet elit consec tetur adipisi elit., rem!</p>
+                            <!-- <p>Lorem ipsum dolor sit amet elit consec tetur adipisi elit., rem!</p> -->
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <div class="col-md-10 col-10 featured_grid_right_info">
                             <h4 class=""><a class="link-hny tags" href="#url">100% Satisfaction
                                     Guarantee</a></h4>
-                            <p>Lorem ipsum dolor sit amet elit consec tetur adipisi elit., rem!</p>
+                            <!-- <p>Lorem ipsum dolor sit amet elit consec tetur adipisi elit., rem!</p> -->
                         </div>
                     </div>
                 </div>

@@ -5,10 +5,10 @@
                 <div class="header-section text-center mx-auto">
                     <h6 class="sub-titlehny">View Projects</h6>
                     <h3 class="hny-title">Latest Projects</h3>
-                    <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                    <!-- <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                         Curae;
                         Nulla mollis dapibus nunc, ut rhoncus
-                        turpis sodales quis. Integer sit amet mattis quam.</p>
+                        turpis sodales quis. Integer sit amet mattis quam.</p> -->
                 </div>
                 <div class="row galler-top mt-lg-5 mt-4">
                     <div class="col-md-4 protfolio-item hover14">
