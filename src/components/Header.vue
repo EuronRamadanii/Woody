@@ -1,5 +1,5 @@
 <template>
-    <header id="site-header" class="fixed-top" style="background-color: gray">
+    <header id="site-header" class="fixed-top" style="background-color: #222222;">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark stroke">
                 <h1>
