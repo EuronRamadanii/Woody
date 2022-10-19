@@ -14982,7 +14982,7 @@ nav ul li a:hover {
   /* background-image: url('../src/assets/images/banner1.jpg'); */
   position: absolute;
   top: 0;
-  min-height: 90vh;
+  min-height: 100vh;
   left: 0;
   right: 0;
   z-index: -1;

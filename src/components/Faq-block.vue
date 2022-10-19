@@ -6,11 +6,11 @@
                     <h6 class="sub-titlehny">Industry Corporation!</h6>
                     <h3 class="hny-title">Best A Grade Commercial
                         & Residential Services</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut
                         labore et
                         dolore magna aliqua. Ut enim ad
                         minim veniam, quis nostrud.
-                    </p>
+                    </p> -->
 
                     <ul class="cont-4 mt-lg-5 mt-4">
                         <li><span class="fa fa-check-circle-o"></span> Quality Control System, 100% Satisfaction
