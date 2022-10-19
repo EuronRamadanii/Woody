@@ -55,7 +55,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-md-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+                    <!-- <div class="col-lg-3 col-md-6 footer-list-29 footer-3 mt-lg-0 mt-5">
 
                         <ul>
                             <h6 class="footer-title-29">Services</h6>
@@ -66,8 +66,8 @@
                             <li><a href="#help">Help & Support</a></li>
                         </ul>
 
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-8 footer-list-29 footer-1 mt-lg-0 mt-5">
+                    </div> -->
+                    <div class="col-lg-3 col-md-6 col-sm-8 footer-list-29 footer-1 mt-lg-0 mt-5 ml-5">
                         <h6 class="footer-title-29">Contact Us</h6>
                         <ul>
                             <li>

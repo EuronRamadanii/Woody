@@ -11,8 +11,8 @@
                     <h6 class="sub-titlehny">FaQs</h6>
                     <h3 class="hny-title">
                         What to expect: </h3>
-                    <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus
-                        turpis sodales quis. Integer sit amet mattis quam.</p>
+                    <!-- <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus
+                        turpis sodales quis. Integer sit amet mattis quam.</p> -->
                     <section class="w3l-faq mt-5" id="faq">
                         <div class="faq-page">
                             <ul>
