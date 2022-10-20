@@ -16002,7 +16002,8 @@ body:after {
 /*--//projects--*/
 /*-- stats --*/
 .w3l-stats {
-  background: var(--bg-light);
+  /* background: var(--bg-light); */
+  background: #222222;
 }
 
 .stats_info p {
