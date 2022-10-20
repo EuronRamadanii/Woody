@@ -35,9 +35,9 @@
             <div class="row bottom_grids pt-md-3 text-left">
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
+                        <a href="/#" class="d-block p-lg-0 p-3">
                             <!-- <span class="fa fa-building-o" aria-hidden="true"></span> -->
-                            <img src="../assets/images/20.jpg" style="width: 250px" alt="">
+                            <img src="../assets/images/20.jpg" style="width: 300PX" alt="">
                             <h4 class="my-3">SWEET CHESTNUT</h4>
                             <p class="">With light black Epoxy </p>
                         </a>
@@ -45,9 +45,9 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
+                        <a href="/#" class="d-block p-lg-0 p-3">
                             <!-- <span class="fa fa-american-sign-language-interpreting" aria-hidden="true"></span> -->
-                            <img src="../assets/images/21.jpg" style="width: 250px" alt="">
+                            <img src="../assets/images/21.jpg" style="width: 300PX" alt="">
                             <h4 class="my-3">OAK</h4>
                             <p class="">Oak with light black Epoxy resin </p>
                         </a>
@@ -55,8 +55,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/22.jpg" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-0 p-3">
+                            <img src="../assets/images/22.jpg" style="width: 300PX" alt="">
                             <h4 class="my-3">CHESTNUT</h4>
 
                             <p class="">Natural Chestnut design </p>
@@ -65,8 +65,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/23.jpg" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-0 p-3">
+                            <img src="../assets/images/23.jpg" style="width: 300PX" alt="">
                             <h4 class="my-3">ELM</h4>
                             <p class="">Elm table with unique grain from Dreikant</p>
                         </a>
@@ -74,8 +74,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/24.jpg" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-0 p-3">
+                            <img src="../assets/images/24.jpg" style="width: 300PX" alt="">
                             <h4 class="my-3">OAK</h4>
                             <p class="">Oak table with wood edge </p>
                         </a>
@@ -83,8 +83,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/25.jpg" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-0 p-3">
+                            <img src="../assets/images/25.jpg" style="width: 300PX" alt="">
                             <h4 class="my-3">CHESTNUT</h4>
                             <p class="">The exciting texture of chestnut wood</p>
                         </a>
@@ -92,8 +92,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/26.jpg" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-0 p-3">
+                            <img src="../assets/images/26.jpg" style="width: 300PX" alt="">
                             <h4 class="my-3">OAK</h4>
                             <p class="">Oak table with wood edge</p>
                         </a>
@@ -101,8 +101,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/27.jpg" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-0 p-3">
+                            <img src="../assets/images/27.jpg" style="width: 300PX" alt="">
 
                             <h4 class="my-3">CORE ASH</h4>
                             <p class="">Simple and beautiful: Heartwood ash with a light finish </p>
@@ -111,8 +111,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/28.jpg" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-0 p-3">
+                            <img src="../assets/images/28.jpg" style="width: 300PX" alt="">
 
                             <h4 class="my-3">OAK FROM A TRUNK</h4>
                             <p class="">In front of a dreamy natural backdrop</p>
@@ -121,8 +121,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/29.jpg" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-0 p-3">
+                            <img src="../assets/images/29.jpg" style="width: 300PX" alt="">
 
                             <h4 class="my-3">OAK</h4>
                             <p class="">From one tribe - Harmonious exclusivity for your own 4 walls </p>
@@ -131,8 +131,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/30.png" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-0 p-3">
+                            <img src="../assets/images/30.png" style="width: 300px" alt="">
 
                             <h4 class="my-3">ELM</h4>
                             <p class="">Faceted Elm wood </p>
@@ -141,8 +141,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block height">
-                        <a href="/#" class="d-block p-lg-4 p-3">
-                            <img src="../assets/images/31.png" style="width: 250px" alt="">
+                        <a href="/#" class="d-block p-lg-1 p-3">
+                            <img src="../assets/images/31.png" style="width: 300PX" alt="">
 
                             <h4 class="my-3">ASH</h4>
                             <p class="">Ash table with distinctive epoxy resin element </p>
