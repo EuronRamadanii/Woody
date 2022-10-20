@@ -6,7 +6,7 @@
             <div class="container">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="#url">Home</a></li>
-                    <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Contact Us</li>
+                    <li class="active"><img style="height: 20px; margin-left: 5px;" src="../assets/icons/right-arrow.png" alt=""> Contact Us</li>
                 </ul>
             </div>
         </section>
