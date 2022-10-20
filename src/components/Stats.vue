@@ -12,8 +12,8 @@
                     <div class="iCountUp">
                         <ICountUp :startVal="stat1.startVal" :endVal="stat1.endVal" :decimals="stat1.decimals"
                             :duration="stat1.duration" :options="stat1.options" @ready="onReady" />
+                        <h4 class="countup">Projects & Residentials Completed in 2020</h4>
                     </div>
-                    <h4 class="countup">Projects & Residentials Completed in 2020</h4>
                 </div>
                 <div class="col-lg-3 col-6 stats_info counter_grid1">
                     <!-- <span class="fa fa-users"></span> -->
@@ -24,8 +24,8 @@
                     <div class="iCountUp">
                         <ICountUp :startVal="stat2.startVal" :endVal="stat2.endVal" :decimals="stat2.decimals"
                             :duration="stat2.duration" :options="stat2.options" @ready="onReady" />
+                        <h4 class="countup">Qualified Employees & Workers With Us</h4>
                     </div>
-                    <h4 class="countup">Qualified Employees & Workers With Us</h4>
                 </div>
                 <div class="col-lg-3 col-6 stats_info counter_grid mt-lg-0 mt-5">
                     <!-- <span class="fa fa-trophy"></span> -->
@@ -36,8 +36,8 @@
                     <div class="iCountUp">
                         <ICountUp :startVal="stat3.startVal" :endVal="stat3.endVal" :decimals="stat3.decimals"
                             :duration="stat3.duration" :options="stat3.options" @ready="onReady" />
+                        <h4 class="countup">Satisfied Clients We Served Globally</h4>
                     </div>
-                    <h4 class="countup">Satisfied Clients We Served Globally</h4>
                 </div>
                 <div class="col-lg-3 col-6 stats_info counter_grid2 mt-lg-0 mt-5">
                     <!-- <span class="fa fa-smile-o"></span> -->
@@ -48,8 +48,8 @@
                     <div class="iCountUp">
                         <ICountUp :startVal="stat4.startVal" :endVal="stat4.endVal" :decimals="stat4.decimals"
                             :duration="stat4.duration" :options="stat4.options" @ready="onReady" />
+                        <h4 class="countup">Years Of Experience In The Industry</h4>
                     </div>
-                    <h4 class="countup">Years Of Experience In The Industry</h4>
                 </div>
             </div>
         </div>
@@ -149,6 +149,7 @@ export default {
     font-size: 3em;
     margin: 0;
     color: #ffffff;
+    text-align: center;
 }
 
 .countup {
@@ -156,6 +157,7 @@ export default {
 }
 
 .icon {
-    margin: 0 0 20px 20px;
+    margin: 0 0 20px 0;
+    text-align: center;
 }
 </style>
