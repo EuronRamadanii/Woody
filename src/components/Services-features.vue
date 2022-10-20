@@ -34,7 +34,7 @@
             </div>
             <div class="row bottom_grids pt-md-3 text-left">
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <!-- <span class="fa fa-building-o" aria-hidden="true"></span> -->
                             <img src="../assets/images/20.jpg" style="width: 250px" alt="">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <!-- <span class="fa fa-american-sign-language-interpreting" aria-hidden="true"></span> -->
                             <img src="../assets/images/21.jpg" style="width: 250px" alt="">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/22.jpg" style="width: 250px" alt="">
                             <h4 class="my-3">CHESTNUT</h4>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/23.jpg" style="width: 250px" alt="">
                             <h4 class="my-3">ELM</h4>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/24.jpg" style="width: 250px" alt="">
                             <h4 class="my-3">OAK</h4>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/25.jpg" style="width: 250px" alt="">
                             <h4 class="my-3">CHESTNUT</h4>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/26.jpg" style="width: 250px" alt="">
                             <h4 class="my-3">OAK</h4>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/27.jpg" style="width: 250px" alt="">
 
@@ -110,7 +110,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/28.jpg" style="width: 250px" alt="">
 
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/29.jpg" style="width: 250px" alt="">
 
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/30.png" style="width: 250px" alt="">
 
@@ -140,7 +140,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <div class="grid-block">
+                    <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-4 p-3">
                             <img src="../assets/images/31.png" style="width: 250px" alt="">
 
@@ -153,3 +153,9 @@
         </div>
     </section>
 </template>
+
+<style>
+.height {
+    height: 100%;
+}
+</style>

@@ -1,6 +1,6 @@
 <template>
     <div>
-       
+
         <!--/services-->
         <section class="w3l-services2" id="services">
             <div id="cwp23-block" class="py-5">
@@ -29,28 +29,49 @@
                         <div class="col-lg-6 cwp23-text align-self mt-lg-0 mt-5 pl-lg-5">
                             <div class="cwp23-text-cols">
                                 <div class="column">
-                                    <span class="fa fa-clock-o" aria-hidden="true"></span>
-                                    <a href="services.html">24/7 availability</a>
-                                    <p>consectetur adipisicing elit, et sed do eiusmod tempor Lorem ipsum dolor sit
+                                    <!-- <span class="fa fa-clock-o" aria-hidden="true"></span> -->
+                                    <div style="text-align:center; margin-bottom: 20px;">
+                                        <img style="height:50px" src="../assets/icons/24-7.png" alt="">
+                                    </div>
+                                    <p style="text-align:center; font-size: 20px; font-weight: 600; color: black;"
+                                        href="#">24/7 availability</p>
+                                    <!-- <router-link to>test</router-link> -->
+                                    <p style="text-align:center">consectetur adipisicing elit, et sed do eiusmod tempor
+                                        Lorem ipsum dolor sit
                                         amet. </p>
                                 </div>
                                 <div class="column">
-                                    <span class="fa fa-cogs" aria-hidden="true"></span>
-                                    <a href="services.html">Work Facilities</a>
-                                    <p>consectetur adipisicing elit, et sed do eiusmod tempor Lorem ipsum dolor sit
+                                    <!-- <span class="fa fa-cogs" aria-hidden="true"></span> -->
+                                    <div style="text-align:center; margin-bottom: 20px;">
+                                        <img style="height:50px" src="../assets/icons/building.png" alt="">
+                                    </div>
+                                    <p style="text-align:center; font-size: 20px; font-weight: 600; color: black;"
+                                        href="#">Work Facilities</p>
+                                    <p style="text-align:center">consectetur adipisicing elit, et sed do eiusmod tempor
+                                        Lorem ipsum dolor sit
                                         amet. </p>
                                 </div>
                                 <div class="column">
-                                    <span class="fa fa-mars" aria-hidden="true"></span>
-                                    <a href="services.html">
-                                        No Obligation Quote</a>
-                                    <p>consectetur adipisicing elit, et sed do eiusmod tempor Lorem ipsum dolor sit
+                                    <div style="text-align:center; margin-bottom: 20px;">
+                                        <img style="height:50px" src="../assets/icons/quote.png" alt="">
+                                    </div>
+                                    <!-- <span class="fa fa-mars" aria-hidden="true"></span> -->
+                                    <p style="text-align:center; font-size: 20px; font-weight: 600; color: black;"
+                                        href="#">
+                                        No Obligation Quote</p>
+                                    <p style="text-align:center">consectetur adipisicing elit, et sed do eiusmod tempor
+                                        Lorem ipsum dolor sit
                                         amet. </p>
                                 </div>
                                 <div class="column">
-                                    <span class="fa fa-user" aria-hidden="true"></span>
-                                    <a href="services.html">Qualified Engineers</a>
-                                    <p>consectetur adipisicing elit, et sed do eiusmod tempor Lorem ipsum dolor sit
+                                    <!-- <span class="fa fa-user" aria-hidden="true"></span> -->
+                                    <div style="text-align:center; margin-bottom: 20px;">
+                                        <img style="height:50px" src="../assets/icons/evaluation.png" alt="">
+                                    </div>
+                                    <p style="text-align:center; font-size: 20px; font-weight: 600; color: black;"
+                                        href="#">Qualified Engineers</p>
+                                    <p style="text-align:center">consectetur adipisicing elit, et sed do eiusmod tempor
+                                        Lorem ipsum dolor sit
                                         amet. </p>
                                 </div>
                             </div>
