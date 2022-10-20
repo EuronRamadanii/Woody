@@ -71,13 +71,15 @@
                         <h6 class="footer-title-29">Contact Us</h6>
                         <ul>
                             <li>
-                                <p><span class="fa fa-map-marker"></span> Industrie, #49436 block, #888 Honey rd
+                                <p> <img style="height: 15px" src="../assets/icons/location.png" alt=""> Industrie,
+                                    #49436 block, #888 Honey rd
                                     Newyork</p>
                             </li>
-                            <li><a href="tel:+7-800-999-800"><span class="fa fa-phone"></span> +(21)-255-999-8888</a>
+                            <li><a href="tel:+7-800-999-800"><img style="height: 15px"
+                                        src="../assets/icons/phone-call.png" alt=""> +(21)-255-999-8888</a>
                             </li>
-                            <li><a href="mailto:industrie@mail.com" class="mail"><span
-                                        class="fa fa-envelope-open-o"></span>
+                            <li><a href="mailto:industrie@mail.com" class="mail"><img style="height: 15px"
+                                        src="../assets/icons/mail.png" alt="">
                                     industrie@mail.com</a></li>
                         </ul>
                     </div>
@@ -89,7 +91,7 @@
                         <div class="column1">
                             <form action="#" class="subscribe" method="post">
                                 <input type="email" name="email" placeholder="Your Email Address">
-                                <button><span class="fa fa-paper-plane-o pr-1"></span></button>
+                                <button><img style="height: 20px" src="../assets/icons/send.png" alt=""></button>
                             </form>
                         </div>
                     </div>

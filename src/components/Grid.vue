@@ -24,8 +24,11 @@
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block">
                         <a href="#" class="d-block p-lg-4 p-3">
-                            <span class="fa fa-cubes" aria-hidden="true"></span>
-                            <h4 class="my-3">Project management</h4>
+                            <!-- <span class="fa fa-cubes" aria-hidden="true"></span> -->
+                            <div style="text-align:center">
+                                <img style="height: 100px; width: 100px;" src="../assets/icons/project.png" alt="">
+                            </div>
+                            <h4 class="my-3 center">Project management</h4>
                             <p class="">Both design and construction of the built-ins and cabinetry are provided under a
                                 single point of contact, sparing you the hassles of coordinating separate designers and
                                 fabricators.</p>
@@ -35,8 +38,11 @@
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block">
                         <a href="#" class="d-block p-lg-4 p-3">
-                            <span class="fa fa-building-o" aria-hidden="true"></span>
-                            <h4 class="my-3">Locally handcrafted pieces</h4>
+                            <!-- <span class="fa fa-building-o" aria-hidden="true"></span> -->
+                            <div style="text-align:center">
+                                <img style="height: 100px; width: 100px;" src="../assets/icons/handcraft.png" alt="">
+                            </div>
+                            <h4 class="my-3 center">Locally handcrafted pieces</h4>
                             <p class="">All our cabinets and furniture are handmade by our talented craftsmen in our
                                 Brooklyn studio, and designed to meet your needs long after we have left.</p>
                         </a>
@@ -45,8 +51,11 @@
                 <div class="col-lg-4 col-md-6 mt-5">
                     <div class="grid-block">
                         <a href="#" class="d-block p-lg-4 p-3">
-                            <span class="fa fa-podcast" aria-hidden="true"></span>
-                            <h4 class="my-3">Custom design, created with the present in mind</h4>
+                            <!-- <span class="fa fa-podcast" aria-hidden="true"></span> -->
+                            <div style="text-align:center">
+                                <img style="height: 100px; width: 100px;" src="../assets/icons/sketch.png" alt="">
+                            </div>
+                            <h4 class="my-3 center">Custom design, created with the present in mind</h4>
                             <p class="">Our commitment to exceptional design and service shows in the connection we make
                                 with our clients. We begin by listening.</p>
                         </a>
@@ -56,3 +65,9 @@
         </div>
     </section>
 </template>
+
+<style>
+.center {
+    text-align: center;
+}
+</style>
