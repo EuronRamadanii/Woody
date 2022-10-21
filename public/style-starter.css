@@ -14292,6 +14292,7 @@ h3.hny-title.two {
 }
 .hny-title{
   color: black
+  /* color: white */
 }
 .cwp4-text p{
   color: white
@@ -15481,6 +15482,23 @@ button.owl-next {
     position: absolute;
     bottom: 38%;
   }
+}
+@media all and (max-width: 988px) {
+  .sub-titlehny {
+    color: white
+  }
+
+ .hny-title{
+  /* color: black */
+  color: white
+}
+
+
+.text{
+  color: white
+}
+
+  
 }
 
 /*--/grids-3--*/
