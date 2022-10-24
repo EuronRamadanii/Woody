@@ -231,7 +231,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-left d-flex mr-3">
-                                            <img src="/examples/images/clients/6.jpg" alt="">
+                                            <img src="../../assets/images/team1.jpg" alt="">
                                         </div>
                                         <div class="media-body">
                                             <div class="overview">
