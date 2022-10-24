@@ -342,7 +342,7 @@
 </style> -->
 
 
-<style type="text/css">
+<style >
 body {
     font-family: "Open Sans", sans-serif;
 }
