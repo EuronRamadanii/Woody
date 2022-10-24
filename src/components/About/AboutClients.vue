@@ -1,153 +1,141 @@
 <template>
-    <section class="w3l-testimonials py-5" id="testimonials">
-        <!-- main-slider -->
-        <div class="container py-md-4 mb-md-0 mb-md-5 mb-4">
-            <div class="heading text-center mx-auto">
-                <h3 class="hny-title text-center mb-5">What Our Clients Say! </h3>
+    <section class="home-testimonial">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center testimonial-pos">
+                <div class="col-md-12 pt-4 d-flex justify-content-center">
+                    <h3 style="color: white">Testimonials</h3>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h2>What Our Clients Say! </h2>
+                </div>
             </div>
-            <div class="owl-testimonial owl-carousel owl-theme">
-                <div class="item">
-                    <div class="slider-info">
-                        <div class="img-circle">
-                            <img src="../../assets/images/1.jpg" class="img-fluid rounded" alt="client image">
+            <section class="home-testimonial-bottom">
+                <div class="container testimonial-inner">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Ea sit id
+                                        accusantiums nunc, ut rhoncus turpis
+                                        sodales quis. Integer sit amet mattis quam.consectetur adipisicing elit.Lorem
+                                        ipsum, dolor sit amet consectetur adipisicing elit&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people"
+                                            src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg"
+                                            alt=""></div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <!-- <div class="link-position d-flex justify-content-center">Student</div> -->
+                                </div>
+                            </div>
                         </div>
-                        <div class="message-info">
-                            <span class="fa fa-quote-left mr-2"></span>
-                            <div class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
-                                accusantium
-                                officia quod quasi necessitatibus perspiciatis Harum error provident
-                                quibusdam tenetur.Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit
-                                amet mattis quam.consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit</div>
-                            <div class="name">- Sami Wade</div>
-                            <div class="desp">Comapany ,City</div>
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Ea sit id
+                                        accusantiums nunc, ut rhoncus turpis
+                                        sodales quis. Integer sit amet mattis quam.consectetur adipisicing elit.Lorem
+                                        ipsum, dolor sit amet consectetur adipisicing elit&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people"
+                                            src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                            alt=""></div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <!-- <div class="link-position d-flex justify-content-center">Student</div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 style-3">
+                            <div class="tour-item ">
+                                <div class="tour-desc bg-white">
+                                    <div class="tour-text color-grey-3 text-center">&ldquo;Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Ea sit id
+                                        accusantiums nunc, ut rhoncus turpis
+                                        sodales quis. Integer sit amet mattis quam.consectetur adipisicing elit.Lorem
+                                        ipsum, dolor sit amet consectetur adipisicing elit.&rdquo;</div>
+                                    <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people"
+                                            src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                            alt=""></div>
+                                    <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                    <!-- <div class="link-position d-flex justify-content-center">Student</div> -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="slider-info">
-                        <div class="img-circle">
-                            <img src="../../assets/images/c3.jpg" class="img-fluid rounded" alt="client image">
-                        </div>
-                        <div class="message-info">
-                            <span class="fa fa-quote-left mr-2"></span>
-                            <div class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit id
-                                accusantium
-                                officia quod quasi necessitatibus perspiciatis Harum error provident
-                                quibusdam tenetur.Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit
-                                amet mattis quam.consectetur adipisicing elitLorem ipsum, dolor sit amet consectetur
-                                adipisicing elit.</div>
-                            <div class="name">- Smith roy</div>
-                            <div class="desp">Comapany ,City</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
         </div>
-        <!-- /main-slider -->
     </section>
 </template>
 
-<script>
-// window.onscroll = function () {
-//     scrollFunction()
-// };
+<style>
+.home-testimonial {
+    background-color: #e44901;
+    height: 380px
+}
 
-// function scrollFunction() {
-//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//         document.getElementById("movetop").style.display = "block";
-//     } else {
-//         document.getElementById("movetop").style.display = "none";
-//     }
-// }
+.home-testimonial-bottom {
+    background-color: #f8f8f8;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px
+}
 
-// When the user clicks on the button, scroll to the top of the document
-// function topFunction() {
-//     document.body.scrollTop = 0;
-//     document.documentElement.scrollTop = 0;
-// }
+.home-testimonial h3 {
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase
+}
 
-$(document).ready(function () {
-    // loop: true,
-    //     margin: 0,
-    //     nav: true,
-    //     responsiveClass: true,
-    //     autoplay: true,
-    //     autoplayTimeout: 5000,
-    //     autoplaySpeed: 1000,
-    //     autoplayHoverPause: false,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //             nav: false
-    //         },
-    //         480: {
-    //             items: 1,
-    //             nav: false
-    //         },
-    //         667: {
-    //             items: 1,
-    //             nav: true
-    //         },
-    //         1000: {
-    //             items: 1,
-    //             nav: true
-    //         }
-    //     }
-    var $owl = $('.owl-testimonial').owlCarousel({
-        items: 5,
-        loop: false,
-        responsive: {
-            0: {
-                items: 1,
-                nav: false
-            },
-            480: {
-                items: 1,
-                nav: false
-            },
-            667: {
-                items: 1,
-                nav: true
-            },
-            1000: {
-                items: 1,
-                nav: true
-            }
-        }
-    })
+.home-testimonial h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700
+}
 
-    $owl.trigger('refresh.owl.testimonial');
-})
+.testimonial-inner {
+    position: relative;
+    top: -174px
+}
 
-// $(function () {
-//     $('.navbar-toggler').click(function () {
-//         $('body').toggleClass('noscroll');
-//     })
-// });
+.testimonial-pos {
+    position: relative;
+    top: 24px
+}
 
-// $(window).on("scroll", function () {
-//     var scroll = $(window).scrollTop();
+.testimonial-inner .tour-desc {
+    border-radius: 5px;
+    padding: 40px
+}
 
-//     if (scroll >= 80) {
-//         $("#site-header").addClass("nav-fixed");
-//     } else {
-//         $("#site-header").removeClass("nav-fixed");
-//     }
-// });
+.color-grey-3 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
 
-//Main navigation Active Class Add Remove
-// $(".navbar-toggler").on("click", function () {
-//     $("header").toggleClass("active");
-// });
-// $(document).on("ready", function () {
-//     if ($(window).width() > 991) {
-//         $("header").removeClass("active");
-//     }
-//     $(window).on("resize", function () {
-//         if ($(window).width() > 991) {
-//             $("header").removeClass("active");
-//         }
-//     });
-// });
-</script>
+.testimonial-inner img.tm-people {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+
+.link-name {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.link-position {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+</style>
