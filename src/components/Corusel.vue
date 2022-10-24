@@ -87,7 +87,8 @@
             <div class="arrow-downhny">
                 <a href="#about" class="arrow-down text-center position-absolute">
                     <span class="arrow-down-icon">
-                        <span class="fa fa-arrow-down"></span>
+                        <!-- <span class="fa fa-arrow-down"></span> -->
+                        <img src="../assets/icons/down-arrow.png" style="height: 40px" alt="">
                     </span>
                 </a>
             </div>
