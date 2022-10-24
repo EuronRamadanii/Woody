@@ -6,19 +6,19 @@
                 <div class="col-lg-6 bottom-ab-left">
                     <h6 class="sub-titlehny">About Our Company</h6>
                     <h3 class="hny-title">Design and Craftsmanship </h3>
-                    <p class="my-3 text"> Founded by a meticulous woodworker with a passion for design, Urban Homecraft
-                        is a
-                        small, bespoke studio offering clients a creative and practical, but ultimately personal,
-                        design-build service. We work closely with clients to design and build beautifully crafted
-                        built-ins, kitchens, custom cabinetry, and furniture that are a pleasure to come home to..</p>
+                    <p class="my-3 text"> Woody is a small, bespoke woodworking studio located in Pristina, founded by a
+                        woodworker with a passion for design, offering clients a creative custom and ultimately personal
+                        design-build service. As a team, we build custom kitchens, vent hoods, vanities, closets,
+                        meeting tables, office spaces, we transform any space and furniture to please your eye. With
+                        other words, we use wood to bring life. </p>
                 </div>
-                <div class="col-lg-6 bottom-ab-right mt-lg-0 mt-3 pl-lg-4">
-                    <p class="text">Recommended by Apartment Therapy's CEO & Founder Woody</p>
-                    <!-- <p class="mt-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                <!-- <div class="col-lg-6 bottom-ab-right mt-lg-0 mt-3 pl-lg-4">
+                    <p class="text">Recommended by Apartment Therapy's CEO & Founder Woody</p> -->
+                <!-- <p class="mt-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                         Curae;
                         Nulla mollis dapibus nunc, ut rhoncus
                         turpis sodales quis. Integer sit amet mattis quam.</p> -->
-                </div>
+                <!-- </div> -->
             </div>
             <div class="row bottom_grids pt-md-3 text-left">
                 <div class="col-lg-4 col-md-6 mt-5">

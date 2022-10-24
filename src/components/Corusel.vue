@@ -28,7 +28,7 @@
                             <div class="banner-info">
                                 <div class="container">
                                     <div class="banner-info-bg">
-                                        <h5>Provide Effective Wood Solutions</h5>
+                                        <h5>Woody, Geppetto’s trusted woodcarver!</h5>
                                         <!-- <p class="mt-4 pr-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                             Velit
                                             quisquam, doloremque placeat aut numquam ipsam. </p> -->
@@ -39,7 +39,7 @@
                                             Us</router-link>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </li>
                 </div>

@@ -6,8 +6,8 @@
                     <img src="assets/images/2.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="cwp4-text col-lg-6">
-                    <h6 class="sub-titlehny">Industry Corporation!</h6>
-                    <h3 class="hny-title">Best A Grade Commercial
+                    <h6 class="sub-titlehny" style="color: white">Industry Corporation!</h6>
+                    <h3 class="hny-title" style="color: white">Best A Grade Commercial
                         & Residential Services</h3>
                     <!-- <p >Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor
                         incididunt ut
@@ -17,11 +17,14 @@
                     </p> -->
 
                     <ul class="cont-4 mt-lg-5 mt-4">
-                        <li class="li"><span class="fa fa-check-circle-o"></span> Quality Control System, 100% Satisfaction
+                        <li style="color: white" class="li"><span style="color: white"
+                                class="fa fa-check-circle-o"></span> Quality Control System, 100% Satisfaction
                             Guarantee</li>
-                        <li class="li"><span class="fa fa-check-circle-o"></span> Highly Professional Staff, Accurate Testing
+                        <li style="color: white" class="li"><span style="color: white"
+                                class="fa fa-check-circle-o"></span> Highly Professional Staff, Accurate Testing
                             Processes</li>
-                        <li class="li"><span class="fa fa-check-circle-o"></span> Unrivalled workmanship, Professional and
+                        <li style="color: white" class="li"><span style="color: white"
+                                class="fa fa-check-circle-o"></span> Unrivalled workmanship, Professional and
                             Qualified</li>
 
                     </ul>

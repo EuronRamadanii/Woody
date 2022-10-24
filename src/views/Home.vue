@@ -9,6 +9,12 @@
     <FaqBlock2 />
     <W31Bottom />
     <AboutFeatures />
+    <div class="whatsapp_float">
+      <a href="https://wa.me/38346132727" target="_blank"><img src="../assets/icons/whatsapp.png" width="50px" class
+          alt="" /></a>
+
+
+    </div>
   </div>
 </template>
 
@@ -40,3 +46,11 @@ export default {
   }
 }
 </script>
+
+<style>
+.whatsapp_float {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+}
+</style>
