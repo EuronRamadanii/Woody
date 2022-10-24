@@ -8531,7 +8531,7 @@ button.bg-dark:focus {
 
 .mt-3,
 .my-3 {
-  margin-top: 1rem !important;
+  margin-top: 0rem !important;
 }
 
 .mr-3,
@@ -14882,6 +14882,12 @@ nav ul li a:hover {
   font-size: 16px;
   line-height: 20px;
   color: var(--para-color);
+}
+
+@media only screen and (max-width: 891px) {
+  .banner-info-bg  {
+   text-align: center;
+  }
 }
 
 .w3l-main-slider .banner-info-bg h6 {

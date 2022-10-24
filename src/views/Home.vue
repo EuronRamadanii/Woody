@@ -86,11 +86,13 @@ export default {
   position: fixed;
   bottom: 100px;
   right: 20px;
+  z-index: 1;
 }
 
 #appp {
   position: fixed;
   bottom: 40px;
   right: 20px;
+  z-index: 1;
 }
 </style>
