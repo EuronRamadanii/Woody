@@ -397,7 +397,7 @@ h2::after {
 .carousel .testimonial {
     color: #fff;
     position: relative;
-    background: #9b9b9b;
+    background: #e44901;
     padding: 15px;
     margin: 0 0 20px 20px;
 }
