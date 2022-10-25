@@ -5,6 +5,8 @@ import store from "./store";
 import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 // import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
+// import * as mdb from "mdb-ui-kit"; // lib
+// import { Input } from "mdb-ui-kit"; // module
 
 Vue.use(BootstrapVue);
 // Optionally install the BootstrapVue icon components plugin
