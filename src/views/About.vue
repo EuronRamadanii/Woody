@@ -19,8 +19,8 @@
             </transition>
         </div>
         <div class="whatsapp_float">
-            <a href="https://wa.me/38346132727" target="_blank"><img src="../assets/icons/whatsapp.png" width="50px"
-                    class alt="" /></a>
+            <a href="https://wa.me/38346132727" target="_blank"><img style="height: 50px; width: 50px; padding: 5px"
+                    src="../assets/icons/whatsapp.png" class alt="" /></a>
         </div>
     </div>
 </template>
