@@ -1,9 +1,9 @@
 <template>
-    <section class="w3l-grids-3 py-5" id="about" data-aos="zoom-in" data-aos-duration="1500">
+    <section class="w3l-grids-3 py-5" id="about">
         <div class="container py-md-5 py-3">
             <div class="row bottom-ab-grids align-items-center">
 
-                <div class="col-lg-6 bottom-ab-left">
+                <div class="col-lg-6 bottom-ab-left" data-aos="zoom-in" data-aos-duration="1500">
                     <h6 class="sub-titlehny">About Our Company</h6>
                     <h3 class="hny-title">Design and Craftsmanship </h3>
                     <p class="my-3 text"> Woody is a small, bespoke woodworking studio located in Pristina, founded by a
@@ -21,7 +21,7 @@
                 <!-- </div> -->
             </div>
             <div class="row bottom_grids pt-md-3 text-left">
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block">
                         <a href="#" class="d-block p-lg-4 p-3">
                             <!-- <span class="fa fa-cubes" aria-hidden="true"></span> -->
@@ -35,7 +35,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block">
                         <a href="#" class="d-block p-lg-4 p-3">
                             <!-- <span class="fa fa-building-o" aria-hidden="true"></span> -->
@@ -48,7 +48,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block">
                         <a href="#" class="d-block p-lg-4 p-3">
                             <!-- <span class="fa fa-podcast" aria-hidden="true"></span> -->
