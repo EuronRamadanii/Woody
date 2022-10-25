@@ -2,7 +2,7 @@
     <div class="w3l-cwp4-sec py-5">
         <div class="container py-md-5 py-3">
             <div class="cwp4-two row align-items-center">
-                <div class="cwp4-text col-lg-6">
+                <div class="cwp4-text col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
                     <h6 class="sub-titlehny" style="color: white">Industry Corporation!</h6>
                     <h3 class="hny-title" style="color: white">Best A Grade Commercial
                         & Residential Services</h3>

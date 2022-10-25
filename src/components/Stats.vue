@@ -1,7 +1,7 @@
 <template>
     <section class="w3l-stats py-lg-5 py-5" id="stats">
         <div class="gallery-inner container py-md-5 py-3">
-            <div class="row stats-con">
+            <div class="row stats-con" data-aos="zoom-in" data-aos-duration="1500">
                 <div class="col-lg-3 col-6 stats_info counter_grid">
                     <!-- <span class="fa fa-laptop"></span> -->
                     <div class="icon">

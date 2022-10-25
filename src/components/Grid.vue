@@ -1,5 +1,5 @@
 <template>
-    <section class="w3l-grids-3 py-5" id="about">
+    <section class="w3l-grids-3 py-5" id="about" data-aos="zoom-in" data-aos-duration="1500">
         <div class="container py-md-5 py-3">
             <div class="row bottom-ab-grids align-items-center">
 

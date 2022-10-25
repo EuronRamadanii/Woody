@@ -3,12 +3,12 @@
     <Header />
     <Corusel />
     <Grid />
-    <FaqBlock />
-    <Projects />
-    <Stats />
-    <FaqBlock2 />
-    <W31Bottom />
-    <AboutFeatures />
+    <FaqBlock  />
+    <Projects data-aos="zoom-in" data-aos-duration="1500" />
+    <Stats  />
+    <FaqBlock2 data-aos="zoom-in" data-aos-duration="1500" />
+    <W31Bottom data-aos="zoom-in" data-aos-duration="1500" />
+    <AboutFeatures data-aos="zoom-in" data-aos-duration="1500" />
     <div id="appp" v-cloak>
       <transition name="fade">
         <div id="pagetop" class="fixed right-0 bottom-0" v-show="scY > 300" @click="toTop">

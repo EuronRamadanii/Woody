@@ -6,7 +6,8 @@
             <div class="container">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="#url">Home</a></li>
-                    <li class="active"><img style="height: 20px; margin-left: 5px;" src="../assets/icons/right-arrow.png" alt=""> Contact Us</li>
+                    <li class="active"><img style="height: 20px; margin-left: 5px;"
+                            src="../assets/icons/right-arrow.png" alt=""> Contact Us</li>
                 </ul>
             </div>
         </section>
@@ -16,7 +17,7 @@
                 <h6 class="sub-titlehny">Contact</h6>
                 <h3 class="hny-title">Get in touch with us</h3>
             </div>
-            <div class="form-41-mian section-gap mt-5">
+            <div class="form-41-mian section-gap mt-5" data-aos="zoom-in" data-aos-duration="1500">
                 <div class="container">
                     <div class="d-grid align-form-map">
                         <div class="form-inner-cont">
@@ -49,7 +50,7 @@
             <div class="contant11-top-bg mt-lg-5 mt-4">
                 <div class="container">
                     <div class="d-grid contact pt-lg-4">
-                        <div class="contact-info-left d-grid text-left">
+                        <div class="contact-info-left d-grid text-left" data-aos="zoom-in" data-aos-duration="1500">
                             <div class="contact-info mt-4">
                                 <h4>London Office</h4>
                                 <p class="mb-3"><label>Address: </label> London, LY-90814 Hill Station 2nd Street

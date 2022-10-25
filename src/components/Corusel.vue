@@ -28,14 +28,17 @@
                             <div class="banner-info">
                                 <div class="container">
                                     <div class="banner-info-bg">
-                                        <h5>Woody, Geppetto’s trusted woodcarver!</h5>
+                                        <h5 data-aos="zoom-in" data-aos-duration="1500">Woody, Geppetto’s trusted
+                                            woodcarver!</h5>
                                         <!-- <p class="mt-4 pr-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                             Velit
                                             quisquam, doloremque placeat aut numquam ipsam. </p> -->
-                                        <router-link class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" to="/about">
+                                        <router-link data-aos="zoom-in" data-aos-duration="1500"
+                                            class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" to="/about">
                                             About
                                             Us</router-link>
-                                        <router-link class="btn btn-style btn-white mt-sm-5 mt-4" to="/contact">Contact
+                                        <router-link data-aos="zoom-in" data-aos-duration="1500"
+                                            class="btn btn-style btn-white mt-sm-5 mt-4" to="/contact">Contact
                                             Us</router-link>
                                     </div>
                                 </div>

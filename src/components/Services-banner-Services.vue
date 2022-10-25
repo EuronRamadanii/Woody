@@ -6,7 +6,7 @@
             <div id="cwp23-block" class="py-5">
                 <div class="container py-lg-5">
 
-                    <div class="row cwp23-content mt-lg-5 mt-4">
+                    <div class="row cwp23-content mt-lg-5 mt-4" data-aos="zoom-in" data-aos-duration="1500">
                         <div class="col-lg-6 cwp23-img">
                             <h6 class="sub-titlehny">Our Services</h6>
                             <h3 class="hny-title">DESIGN WITH BENEFITS </h3>

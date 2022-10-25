@@ -8,7 +8,8 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="#url">Home</a></li>
                     <!-- <span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> -->
-                    <li class="active"><img style="height: 20px; margin-left: 5px;" src="../assets/icons/right-arrow.png" alt=""> Services</li>
+                    <li class="active"><img style="height: 20px; margin-left: 5px;"
+                            src="../assets/icons/right-arrow.png" alt=""> Services</li>
                 </ul>
             </div>
         </section>
@@ -34,7 +35,7 @@
 
             </div>
             <div class="row bottom_grids pt-md-3 text-left">
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <!-- <span class="fa fa-building-o" aria-hidden="true"></span> -->
@@ -44,7 +45,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <!-- <span class="fa fa-american-sign-language-interpreting" aria-hidden="true"></span> -->
@@ -54,7 +55,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <img src="../assets/images/22.jpg" style="width: 300PX" alt="">
@@ -64,7 +65,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <img src="../assets/images/23.jpg" style="width: 300PX" alt="">
@@ -73,7 +74,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <img src="../assets/images/24.jpg" style="width: 300PX" alt="">
@@ -82,7 +83,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <img src="../assets/images/25.jpg" style="width: 300PX" alt="">
@@ -91,7 +92,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <img src="../assets/images/26.jpg" style="width: 300PX" alt="">
@@ -100,7 +101,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <img src="../assets/images/27.jpg" style="width: 300PX" alt="">
@@ -110,7 +111,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <img src="../assets/images/28.jpg" style="width: 300PX" alt="">
@@ -120,7 +121,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <img src="../assets/images/29.jpg" style="width: 300PX" alt="">
@@ -130,7 +131,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <img src="../assets/images/30.png" style="width: 300px" alt="">
@@ -140,7 +141,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="grid-block height">
                         <a href="/#" class="d-block p-lg-1 p-3">
                             <img src="../assets/images/31.png" style="width: 300PX" alt="">
