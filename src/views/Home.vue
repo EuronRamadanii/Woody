@@ -18,7 +18,11 @@
           @click="toTop"
         >
           <svg
-            style="background-color: black; border-radius: 10px"
+            style="
+              background-color: black;
+              border-radius: 10px;
+              cursor: pointer;
+            "
             xmlns="http://www.w3.org/2000/svg"
             width="48"
             height="48"
