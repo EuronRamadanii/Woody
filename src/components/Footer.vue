@@ -2,7 +2,7 @@
     <section class="w3l-footer-29-main">
         <div class="footer-29 py-5">
             <div class="container py-lg-4">
-                <div class="row footer-top-29">
+                <div class="row footer-top-29" style="justify-content: space-between">
                     <div class="footer-list-29 col-lg-4">
                         <h6 class="footer-title-29">About Company</h6>
                         <p>One vision, three characters, countless unique pieces. Each of our individual pieces tells a
@@ -83,7 +83,7 @@
                                     industrie@mail.com</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-12 footer-list-29 footer-4 mt-5">
+                    <!-- <div class="col-lg-12 footer-list-29 footer-4 mt-5">
                         <div class="column1 align-self">
                             <h6 class="footer-title-29 mb-1">Subscribe to our Newsletter </h6>
                             <p>Enter your email and receive the latest news from us.</p>
@@ -94,7 +94,7 @@
                                 <button><img style="height: 20px" src="../assets/icons/send.png" alt=""></button>
                             </form>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

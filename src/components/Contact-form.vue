@@ -21,21 +21,38 @@
                 <div class="container">
                     <div class="d-grid align-form-map">
                         <div class="form-inner-cont">
-                            <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
+                            <form class="signin-form" ref="form" @submit.prevent="submit">
                                 <div class="form-input">
                                     <label for="w3lName">Name</label>
-                                    <input type="text" name="w3lName" id="w3lName" placeholder="" />
+                                    <input type="text" name="user_name" v-model.trim="$v.userForm.name.$model"
+                                        :class="{ 'is-invalid': validationStatus($v.userForm.name) }" id="w3lName"
+                                        placeholder="" />
+                                    <div v-if="!$v.userForm.name.required" class="invalid-feedback">The name field
+                                        is
+                                        required.</div>
                                 </div>
                                 <div class="form-input">
                                     <label for="w3lSender">Email(Required)*</label>
-                                    <input type="email" name="w3lSender" id="w3lSender" placeholder="" />
+                                    <input type="email" name="user_email" v-model.trim="$v.userForm.email.$model"
+                                        :class="{ 'is-invalid': validationStatus($v.userForm.email) }" id="w3lSender"
+                                        placeholder="" />
+                                    <div v-if="!$v.userForm.email.required" class="invalid-feedback">The email field
+                                        is
+                                        required.</div>
                                 </div>
                                 <div class="form-input">
                                     <label for="w3lMessage">Message(Required)*</label>
-                                    <textarea placeholder="" name="w3lMessage" id="w3lMessage"></textarea>
+                                    <textarea placeholder="" name="message" v-model.trim="$v.userForm.message.$model"
+                                        :class="{ 'is-invalid': validationStatus($v.userForm.message) }"
+                                        id="w3lMessage"></textarea>
+                                    <div v-if="!$v.userForm.message.required" class="invalid-feedback">The message field
+                                        is
+                                        required.</div>
                                 </div>
                                 <div class="form-submit text-right">
-                                    <button type="submit" class="btn btn-style btn-primary">Submit Message</button>
+                                    <button type="submit" value="Send" class=" btn-style btn-primary"
+                                        @click="sendEmail">Submit
+                                        Message</button>
                                 </div>
                             </form>
                         </div>
@@ -88,3 +105,66 @@
         </section>
     </div>
 </template>
+
+<script>
+import emailjs from '@emailjs/browser';
+// import { useVuelidate } from '@vuelidate/core'
+// import { required, email } from '@vuelidate/validators'
+// import {
+//     required,
+//     email,
+//     minLength,
+//     sameAs
+// } from "vuelidate/lib/validators";
+import { required, email, minLength, maxLength } from 'vuelidate/lib/validators'
+
+export default {
+    // setup() {
+    //     return { v$: useVuelidate() }
+    // },
+    data() {
+        return {
+            userForm: {
+                name: "",
+                email: "",
+                message: "",
+            },
+            isSubmitted: false
+        }
+    },
+    validations() {
+        return {
+            userForm: {
+                name: { required }, // Matches this.firstName
+                email: { required }, // Matches this.lastName
+                message: { required } // Matches this.contact.email
+            }
+
+        }
+    },
+    methods: {
+        sendEmail() {
+            emailjs.sendForm('service_59hbpy8', 'template_rqiiv6t', this.$refs.form, 'sBUO9jJU_Ds1ggfda')
+                .then((result) => {
+                    console.log('SUCCESS!', result.text);
+                }, (error) => {
+                    console.log('FAILED...', error.text);
+                });
+
+            event.target.reset();
+        },
+        validationStatus: function (validation) {
+            return typeof validation != "undefined" ? validation.$error : false;
+        },
+
+        submit: function () {
+
+            this.$v.$touch();
+            if (this.$v.$pendding || this.$v.$error) return;
+
+            // alert('Data Submit');
+        }
+
+    }
+}
+</script>
