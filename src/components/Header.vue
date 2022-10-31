@@ -39,7 +39,7 @@
                 </div>
                 <!-- toggle switch for light and dark theme -->
 
-                <div class="mobile-position">
+                <!-- <div class="mobile-position">
                     <nav class="navigation">
                         <div class="theme-switch-wrapper">
                             <label class="theme-switch" for="checkbox">
@@ -51,7 +51,7 @@
                             </label>
                         </div>
                     </nav>
-                </div>
+                </div> -->
                 <!-- //toggle switch for light and dark theme -->
             </nav>
         </div>
