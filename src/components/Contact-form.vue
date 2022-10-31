@@ -21,37 +21,33 @@
                 <div class="container">
                     <div class="d-grid align-form-map">
                         <div class="form-inner-cont">
-                            <form class="signin-form" ref="form" @submit.prevent="submit">
+                            <form class="signin-form" ref="form" @submit.prevent="sendEmail">
                                 <div class="form-input">
                                     <label for="w3lName">Name</label>
-                                    <input type="text" name="user_name" v-model.trim="$v.userForm.name.$model"
-                                        :class="{ 'is-invalid': validationStatus($v.userForm.name) }" id="w3lName"
-                                        placeholder="" />
-                                    <div v-if="!$v.userForm.name.required" class="invalid-feedback">The name field
+                                    <input type="text" name="user_name" v-model.trim="$v.userForm.name.$model" required
+                                        id="w3lName" placeholder="" />
+                                    <!-- <div v-if="!$v.userForm.name.required" class="invalid-feedback">The name field
                                         is
-                                        required.</div>
+                                        required.</div> -->
                                 </div>
                                 <div class="form-input">
                                     <label for="w3lSender">Email(Required)*</label>
                                     <input type="email" name="user_email" v-model.trim="$v.userForm.email.$model"
-                                        :class="{ 'is-invalid': validationStatus($v.userForm.email) }" id="w3lSender"
-                                        placeholder="" />
-                                    <div v-if="!$v.userForm.email.required" class="invalid-feedback">The email field
+                                        required id="w3lSender" placeholder="" />
+                                    <!-- <div v-if="!$v.userForm.email.required" class="invalid-feedback">The email field
                                         is
-                                        required.</div>
+                                        required.</div> -->
                                 </div>
                                 <div class="form-input">
                                     <label for="w3lMessage">Message(Required)*</label>
                                     <textarea placeholder="" name="message" v-model.trim="$v.userForm.message.$model"
-                                        :class="{ 'is-invalid': validationStatus($v.userForm.message) }"
-                                        id="w3lMessage"></textarea>
-                                    <div v-if="!$v.userForm.message.required" class="invalid-feedback">The message field
+                                        required id="w3lMessage"></textarea>
+                                    <!-- <div v-if="!$v.userForm.message.required" class="invalid-feedback">The message field
                                         is
-                                        required.</div>
+                                        required.</div> -->
                                 </div>
                                 <div class="form-submit text-right">
-                                    <button type="submit" value="Send" class=" btn-style btn-primary"
-                                        @click="sendEmail">Submit
+                                    <button type="submit" value="Send" class=" btn-style btn-primary">Submit
                                         Message</button>
                                 </div>
                             </form>
@@ -153,17 +149,17 @@ export default {
 
             event.target.reset();
         },
-        validationStatus: function (validation) {
-            return typeof validation != "undefined" ? validation.$error : false;
-        },
+        // validationStatus: function (validation) {
+        //     return typeof validation != "undefined" ? validation.$error : false;
+        // },
 
-        submit: function () {
+        // submit: function () {
 
-            this.$v.$touch();
-            if (this.$v.$pendding || this.$v.$error) return;
+        //     this.$v.$touch();
+        //     if (this.$v.$pendding || this.$v.$error) return;
 
-            // alert('Data Submit');
-        }
+        //     // alert('Data Submit');
+        // }
 
     }
 }
