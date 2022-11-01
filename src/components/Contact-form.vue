@@ -31,7 +31,7 @@
                                         required.</div> -->
                                 </div>
                                 <div class="form-input">
-                                    <label for="w3lSender">Email(Required)*</label>
+                                    <label for="w3lSender">Email</label>
                                     <input type="email" name="user_email" v-model.trim="$v.userForm.email.$model"
                                         required id="w3lSender" placeholder="" />
                                     <!-- <div v-if="!$v.userForm.email.required" class="invalid-feedback">The email field
@@ -39,7 +39,7 @@
                                         required.</div> -->
                                 </div>
                                 <div class="form-input">
-                                    <label for="w3lMessage">Message(Required)*</label>
+                                    <label for="w3lMessage">Message</label>
                                     <textarea placeholder="" name="message" v-model.trim="$v.userForm.message.$model"
                                         required id="w3lMessage"></textarea>
                                     <!-- <div v-if="!$v.userForm.message.required" class="invalid-feedback">The message field
