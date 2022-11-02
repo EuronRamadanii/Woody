@@ -6,9 +6,12 @@
         <div id="appp" v-cloak>
             <transition name="fade">
                 <div id="pagetop" class="fixed right-0 bottom-0" v-show="scY > 300" @click="toTop">
-                    <svg style="background-color: #e44901; border-radius: 10px;" xmlns="http://www.w3.org/2000/svg"
-                        width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#4a5568" stroke-width="1"
-                        stroke-linecap="square" stroke-linejoin="arcs">
+                    <svg style="
+              background-color: black;
+              border-radius: 10px;
+              cursor: pointer;
+            " xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff"
+                        stroke-width="1" stroke-linecap="square" stroke-linejoin="arcs">
                         <path d="M18 15l-6-6-6 6" />
                     </svg>
                 </div>
@@ -22,9 +25,6 @@
 </template>
 
 <script>
-
-
-
 
 import ServicesBannerServices from '@/components/Services-banner-Services.vue';
 import ServicesBanner from '../components/Services-banner.vue';

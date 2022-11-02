@@ -21,19 +21,19 @@
                     <ul class="navbar-nav mx-lg-auto">
                         <li class="nav-item">
                             <router-link class="nav-link " to="/" exact>
-                                Home <span class="sr-only">(current)</span> </router-link>
+                                {{ $t('Home') }} <span class="sr-only">(current)</span> </router-link>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link" to="/about">
-                                About
+                                {{ $t('About') }}
                             </router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link" to="/products">Products</router-link>
+                            <router-link class="nav-link" to="/products">{{ $t('Products') }}</router-link>
                         </li>
 
                         <li class="nav-item">
-                            <router-link class="nav-link" to="/contact">Contact</router-link>
+                            <router-link class="nav-link" to="/contact">{{ $t('Contact') }}</router-link>
                         </li>
                     </ul>
                 </div>
@@ -53,10 +53,53 @@
                     </nav>
                 </div> -->
                 <!-- //toggle switch for light and dark theme -->
+
+                <b-dropdown :text="language" variant="btnLanguage"
+                    style="margin-right:20px; background-color: white; border-radius: 10px;" class="dropdown-language">
+                    <b-dropdown-item variant="dropLanguage" @click="changeL('en')">
+                        Anglisht
+                    </b-dropdown-item>
+                    <div>
+                        <b-dropdown-item variant="dropLanguage" @click="changeL('sq')">
+                            Shqip
+                        </b-dropdown-item>
+                    </div>
+                </b-dropdown>
             </nav>
         </div>
     </header>
 </template>
+
+<script>
+import { mapActions, mapGetters } from 'vuex';
+
+export default {
+    data() {
+        return {
+            lang: 'en'
+        };
+    },
+    computed: {
+        ...mapGetters(['getLanguage']),
+        language() {
+            if (this.getLanguage === 'en') {
+                return 'Anglisht'
+            }
+            return 'Shqip'
+        },
+    },
+    methods: {
+        ...mapActions(['changeLanguage']),
+
+        changeL(a) {
+            this.changeLanguage(a)
+            if (this.$i18n.locale !== a) {
+                this.$i18n.locale = a
+            }
+        },
+    },
+}
+</script>
 
 <style>
 .router-link-active {

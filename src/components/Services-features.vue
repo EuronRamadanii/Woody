@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1500">
-                    <div class="grid-block height">
+                    <div class="grid-block height">p
                         <a href="/#" class="d-block p-lg-0 p-3">
                             <!-- <span class="fa fa-american-sign-language-interpreting" aria-hidden="true"></span> -->
                             <img src="../assets/images/21.jpg" style="width: 300PX" alt="">

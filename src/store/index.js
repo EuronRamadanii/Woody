@@ -1,17 +1,20 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
+import createPersistedState from "vuex-persistedstate";
 
-Vue.use(Vuex)
+
+import language from "./modules/language";
+
+Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
-  }
-})
+    language,
+  },
+  plugins: [
+    createPersistedState({
+      paths: ["language"],
+      storage: window.localStorage,
+    }),
+  ],
+});
